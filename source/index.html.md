@@ -25,16 +25,23 @@ The purpose of this document is to share as much about myself as I can: backgrou
 - (Hope)
 
 ## As viewed by Ben
-- word
-- Word
+- (Expectation)
+- (Hope)
 
 ## What is required of me?
 
-## What gives the business the greatest return? (What I should do)
+## What gives the business the greatest return?
+```javascript
+(What I should do)
+```
 
 
-## What is most personally rewarding ? (What I love to do)
+## What is most personally rewarding ?
 - Teaching, mentoring, and generally sharing information
+
+```javascript
+(What I love to do)
+```
 
 #	Personal Background
 
@@ -81,6 +88,11 @@ Most people who read this will explicitly understand what we mean by personal â€
 - I want whatâ€™s best for my coworkers and reports
 
 ## Deficits
+
+```javascript
+remember that I am also quick to forgive :)
+```
+
 - I am pressure-prompted. This is a nicer way of saying I tend to procrastinate.
 - I make a lot of typos and often donâ€™t catch them in emails
 - Iâ€™m often critical of others
@@ -97,11 +109,11 @@ Most people who read this will explicitly understand what we mean by personal â€
 
 #	Beliefs & Lessons from the Past
 
-Hold
+Content coming soon
 
 #	Common Expectations of Others
 
-Hold
+Hold for something amazing in the future
 
 #	Coaching Ben
 
