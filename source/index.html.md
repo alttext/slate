@@ -30,18 +30,22 @@ The purpose of this document is to share as much about myself as I can: backgrou
 
 ## What is required of me?
 
+
 ## What gives the business the greatest return?
+
 ```javascript
 (What I should do)
 ```
 
-
 ## What is most personally rewarding ?
-- Teaching, mentoring, and generally sharing information
 
 ```javascript
 (What I love to do)
 ```
+
+- Teaching, mentoring, and generally sharing information
+
+
 
 #	Personal Background
 
