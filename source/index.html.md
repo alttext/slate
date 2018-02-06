@@ -25,8 +25,8 @@ The purpose of this document is to share as much about myself as I can: backgrou
 
 ## As viewed by those who report to Ben
 
--(Expectation)
--(Hope)
+- (Expectation)
+- (Hope)
 
 ## As viewed by Ben
 - word
@@ -68,36 +68,36 @@ I’ve also undergone several in-depth 360-degree feedback reviews using product
 
 Most people who read this will explicitly understand what we mean by personal “assets and deficits”. These are the personal characteristics or traits that have great potential to enhance the quality and effectiveness of our teamwork (“assets”) or, conversely, could significantly harm the team (“deficits”).
 
-Assets
-I am curious and optimistic
-I’m passionate
-I want things to be the best they can be
-I care about people and have empathy for those with whom I work closely
-I’m loyal
-I’m creative
-I allow room for mistakes
-I try to put things into perspective for coworkers who are stressed/worried
-I can pick things up quickly and understand complex ideas
-I use humor effectively
-I am forgiving and tend to not hold grudges or ill-will
-I am collaborative and seek to empower people in their own work
-I deal with change well when it comes up (see point below on ambiguity for flip side)
-I want what’s best for my coworkers and reports
+## Assets
+- I am curious and optimistic
+- I’m passionate
+- I want things to be the best they can be
+- I care about people and have empathy for those with whom I work closely
+- I’m loyal
+- I’m creative
+- I allow room for mistakes
+- I try to put things into perspective for coworkers who are stressed/worried
+- I can pick things up quickly and understand complex ideas
+- I use humor effectively
+- I am forgiving and tend to not hold grudges or ill-will
+- I am collaborative and seek to empower people in their own work
+- I deal with change well when it comes up (see point below on ambiguity for flip side)
+- I want what’s best for my coworkers and reports
 
-Deficits
-I am pressure-prompted. This is a nicer way of saying I tend to procrastinate.
-I make a lot of typos and often don’t catch them in emails
-I’m often critical of others
-When my expectations for a scenario aren’t met I get frustrated
-Even as a manager I tend to get down into specific detailed tactical work that I should likely delegate
-I am not detail oriented. I tend to get the big picture in my head for something and then move to the next big picture.
-I’m impatient
-I’m easily excitable / annoyable / angerable
-I often feel like I have to speak to think
-(Related to above) I don’t often provide the right amount of eye contact when I am speaking, though I tend to when I am listening.
-I’ve only recently become more introspective and aware of my subconscious motivations
-I don’t like ambiguity and will seek to reduce it through planning
-I have a hard time forming habits (good and bad)
+## Deficits
+- I am pressure-prompted. This is a nicer way of saying I tend to procrastinate.
+- I make a lot of typos and often don’t catch them in emails
+- I’m often critical of others
+- When my expectations for a scenario aren’t met I get frustrated
+- Even as a manager I tend to get down into specific detailed tactical work that - I should likely delegate
+- I am not detail oriented. I tend to get the big picture in my head for something and then move to the next big picture.
+- I’m impatient
+- I’m easy to excite / annoy / anger
+- I often feel like I have to speak to think
+- (Related to above) I don’t often provide the right amount of eye contact when I am speaking, though I tend to when I am listening.
+- I’ve only recently become more introspective and aware of my subconscious motivations
+- I don’t like ambiguity and will seek to reduce it through planning
+- I have a hard time forming habits (good and bad)
 
 #	Beliefs & Lessons from the Past
 
@@ -110,220 +110,3 @@ Hold
 #	Coaching Ben
 
 I haven’t tried this yet but it sounds like a great idea from Tim that I want to attempt it. We can walk for non-feedback/coaching events as well :) The best way to coach me or give me feedback is to take me for a walk.  Because conflict can be challenging, especially when I feel like I’ve done something wrong or harmful or “bad”, it’s much easier for us to be going in the same direction, headed to the same goal, not “facing off” with each other and, thus, talking about how I can be a more effective leader, participant in a relationship, collaborator or manager.
-
-
-# Authentication
-
-> To authorize, use this code:
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-```
-
-```shell
-# With shell, you can just pass the correct header with each request
-curl "api_endpoint_here"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-```
-
-> Make sure to replace `meowmeowmeow` with your API key.
-
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
-
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: meowmeowmeow`
-
-<aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
-
-# Kittens
-
-## Get All Kittens
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
-```
-
-```shell
-curl "http://example.com/api/kittens"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let kittens = api.kittens.get();
-```
-
-> The above command returns JSON structured like this:
-
-```json
-[
-  {
-    "id": 1,
-    "name": "Fluffums",
-    "breed": "calico",
-    "fluffiness": 6,
-    "cuteness": 7
-  },
-  {
-    "id": 2,
-    "name": "Max",
-    "breed": "unknown",
-    "fluffiness": 5,
-    "cuteness": 10
-  }
-]
-```
-
-This endpoint retrieves all kittens.
-
-### HTTP Request
-
-`GET http://example.com/api/kittens`
-
-### Query Parameters
-
-Parameter | Default | Description
---------- | ------- | -----------
-include_cats | false | If set to true, the result will also include cats.
-available | true | If set to false, the result will include kittens that have already been adopted.
-
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
-
-## Get a Specific Kitten
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get(2)
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get(2)
-```
-
-```shell
-curl "http://example.com/api/kittens/2"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let max = api.kittens.get(2);
-```
-
-> The above command returns JSON structured like this:
-
-```json
-{
-  "id": 2,
-  "name": "Max",
-  "breed": "unknown",
-  "fluffiness": 5,
-  "cuteness": 10
-}
-```
-
-This endpoint retrieves a specific kitten.
-
-<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
-
-### HTTP Request
-
-`GET http://example.com/kittens/<ID>`
-
-### URL Parameters
-
-Parameter | Description
---------- | -----------
-ID | The ID of the kitten to retrieve
-
-## Delete a Specific Kitten
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.delete(2)
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.delete(2)
-```
-
-```shell
-curl "http://example.com/api/kittens/2"
-  -X DELETE
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let max = api.kittens.delete(2);
-```
-
-> The above command returns JSON structured like this:
-
-```json
-{
-  "id": 2,
-  "deleted" : ":("
-}
-```
-
-This endpoint deletes a specific kitten.
-
-### HTTP Request
-
-`DELETE http://example.com/kittens/<ID>`
-
-### URL Parameters
-
-Parameter | Description
---------- | -----------
-ID | The ID of the kitten to delete
-
-
-
-So does this just keep going?
